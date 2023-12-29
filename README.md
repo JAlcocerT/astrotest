@@ -1,3 +1,8 @@
+
+https://docs.astro.build/en/guides/deploy/github/#configure-a-github-action
+
+================
+
 <h3 align=center>
   <code>npx degit TheOtterlord/manual</code>
 </h3>

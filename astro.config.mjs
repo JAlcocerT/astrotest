@@ -5,7 +5,9 @@ import { SITE_URL } from './src/site_config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE_URL,
+  // site: SITE_URL,
+  site: 'https://jalcocert.github.io',
+  base: '/astrotest',
   integrations: [tailwind(), sitemap()],
   vite: {
     plugins: [rawFonts(['.ttf'])],
