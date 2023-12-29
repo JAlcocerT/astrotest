@@ -26,5 +26,5 @@
   "devDependencies": {
     "pagefind": "^0.10.7"
   },
-  "packageManager": "pnpm@7.14.0" // Replace X.X.X with your local pnpm version
+  "packageManager": "pnpm@7.14.0"
 }
