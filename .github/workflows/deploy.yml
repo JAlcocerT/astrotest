@@ -23,13 +23,14 @@ jobs:
           node-version: '18' # Specify your Node version here
           cache: 'pnpm' # Enable caching for pnpm
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install Dependencies
-        run: |
-          pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build the Site
-        run: |
-          pnpm run build
+        run: pnpm run build
         env:
           CI: true # This ensures that build fails on errors
 
