@@ -7,7 +7,7 @@ import { SITE_URL } from './src/site_config';
 export default defineConfig({
   // site: SITE_URL,
   site: 'https://jalcocert.github.io',
-  base: '/astrotest',
+  base: '/astrotest/',
   integrations: [tailwind(), sitemap()],
   vite: {
     plugins: [rawFonts(['.ttf'])],
