@@ -1,6 +1,12 @@
 
 https://docs.astro.build/en/guides/deploy/github/#configure-a-github-action
 
+```sh
+npm install
+npm run dev
+```
+
+
 ================
 
 <h3 align=center>
