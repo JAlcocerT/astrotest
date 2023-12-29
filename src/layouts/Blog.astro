@@ -2,6 +2,8 @@
 import type { CollectionEntry } from "astro:content";
 import Base from "./Base.astro";
 
+import { baseUrl } from '../utils/baseUrl.js'; // Import the utility function
+
 export interface Props {
   /** Title of the page */
 	title?: string;
@@ -34,9 +36,9 @@ const {
         <hr/>
         <div class="justify-between gap-x-4">
           {prevEntry && (
-            <a href={`/blog/${prevEntry?.slug}/`} class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
-              ← {prevEntry?.data.title}
-            </a>
+<a href={baseUrl(`/blog/${prevEntry?.slug}/`)} class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
+  ← {prevEntry?.data.title}
+</a>
           )}
           {nextEntry && (
             <a href={`/blog/${nextEntry?.slug}/`} class="float-right text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
