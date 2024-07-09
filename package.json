@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "postbuild": "pagefind --source dist --bundle-dir pagefind",
+    // "postbuild": "pagefind --source dist --bundle-dir pagefind",
+    "postbuild": "pagefind --source Docs/dist --bundle-dir Docs/dist/pagefind",
     "preview": "astro preview",
     "astro": "astro"
   },
