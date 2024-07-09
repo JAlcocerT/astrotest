@@ -1,7 +1,7 @@
 ---
-title: Tutorial
-description: How to use the package
-published: 2023-01-23
+title: Youtube Summaries with Groq
+description: How to use the Streamlit AI App
+published: 2024-07-01
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl. Nullam auctor, nisl eget aliquam tincidunt, nunc nisl aliquam tortor, eget aliquam nisl nunc vel nisl.
+* https://fossengineer.com/summarize-yt-videos/
